@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 
-# Install NLTK
+# Install NLTKk
 RUN pip install nltk
 # Download NLTK data
 RUN python -m nltk.downloader stopwords webtext punkt
