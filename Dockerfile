@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir nltk
 
 
 # Run script.py when the container launches
-CMD ["python", "cloud.py"]
+CMD ["python", "assignment.py"]
